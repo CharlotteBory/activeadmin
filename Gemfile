@@ -3,6 +3,7 @@ source "https://rubygems.org"
 
 # temporary while waiting for rails 7 support
 gem "inherited_resources", git: "git://github.com/CharlotteBory/inherited_resources.git"
+gem "ransack", git: "git://github.com/activerecord-hackery/ransack.git"
 
 group :development, :test do
   gem "rake"
