@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.add_dependency "formtastic", ">= 3.1", "< 5.0"
   s.add_dependency "formtastic_i18n", "~> 0.4"
   # temporary fix while waiting for support for rails 7
-  s.add_dependency "inherited_resources", github: "CharlotteBory/inherited_resources"
+  s.add_dependency "inherited_resources", git: "https://github.com/CharlotteBory/inherited_resources.git"
   s.add_dependency "jquery-rails", "~> 4.2"
   s.add_dependency "kaminari", "~> 1.0", ">= 1.2.1"
   s.add_dependency "railties", ">= 5.2"
