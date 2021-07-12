@@ -2,8 +2,8 @@
 source "https://rubygems.org"
 
 # temporary while waiting for rails 7 support
-gem "inherited_resources", git: "git://github.com/CharlotteBory/inherited_resources.git"
-gem "ransack", git: "git://github.com/activerecord-hackery/ransack.git"
+gem "inherited_resources", github: "CharlotteBory/inherited_resources"
+gem 'ransack', github: 'activerecord-hackery/ransack'
 
 group :development, :test do
   gem "rake"
