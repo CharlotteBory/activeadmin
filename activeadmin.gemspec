@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   s.add_dependency "formtastic_i18n", "~> 0.4"
   s.add_dependency "inherited_resources"
   s.add_dependency "jquery-rails", "~> 4.2"
-  s.add_dependency "kaminari", "~> 1.0", ">= 1.2.1"
+  s.add_dependency "kaminari", "~> 1.2", ">= 1.2.1"
   s.add_dependency "railties", ">= 5.2"
   s.add_dependency "ransack"
 end
